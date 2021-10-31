@@ -1,0 +1,24 @@
+.popup__cross {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 32px;
+  height: 32px;
+  background-image: url('../../../images/small-cross.svg');
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.popup__cross:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 767px) {
+  .popup__cross {
+    background-size: contain;
+    right: 0;
+    width: 20px;
+    height: 20px;
+  }
+}

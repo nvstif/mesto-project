@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="интерактивная страница, с редактированием профиля">
+  <meta name="keywords" content="mesto, изменить, форма, фото, лайк">
+  <meta name="author" content="Никита Стифеев">
+  <title>Mesto</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <div class="page__container">
+    <header class="header page__header">
+      <img class="header__logo" src="./images/logo-mesto.svg" alt="логотип место">
+    </header>
+    <main>
+      <section class="profile page__profile">
+        <img class="profile__image" src="./images/0.jpg" alt="главное-фото">
+        <div class="profile__info">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <p class="profile__about">Исследователь океана</p>
+          <button class="profile__button-edit" type="button"></button>
+        </div>
+        <button class="profile__button-add" type="button"></button>
+      </section>
+      <section class="elements page__elements">
+        <div class="element">
+          <img class="element__image" src="./images/1.jpg" alt="Карачаевск">
+          <div class="element__info">
+            <h2 class="element__name">Карачаевск</h2>
+            <button class="element__button-like element__bitton-like_active" type="button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./images/2.jpg" alt="Гора Эльбрус">
+          <div class="element__info">
+            <h2 class="element__name">Гора Эльбрус</h2>
+            <button class="element__button-like" type="button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./images/3.jpg" alt="Домбай">
+          <div class="element__info">
+            <h2 class="element__name">Домбай</h2>
+            <button class="element__button-like element__bitton-like_active" type="button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./images/4.jpg" alt="Гора Эльбрус">
+          <div class="element__info">
+            <h2 class="element__name">Гора Эльбрус</h2>
+            <button class="element__button-like" type="button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./images/5.jpg" alt="Домбай">
+          <div class="element__info">
+            <h2 class="element__name">Домбай</h2>
+            <button class="element__button-like element__bitton-like_active" type="button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./images/6.jpg" alt="Карачаево-Черкесия">
+          <div class="element__info">
+            <h2 class="element__name">Карачаево-Черкесия</h2>
+            <button class="element__button-like" type="button"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2021. Mesto Russia</p>
+    </footer>
+
+    <section class="popup">
+      <div class="popup__container">
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <button class="popup__cross"></button>
+        <form>
+          <fieldset class="popup__input-container">
+            <input class="popup__input" type="text" name="username" placeholder="Имя" required>
+            <input class="popup__input" type="text" name="userabout" placeholder="Информация о себе">
+          </fieldset>
+          <fieldset class="popup__handlers">
+            <button class="popup__button-save" type="submit">Сохранить</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+  </div>
+</body>
+
+</html>
