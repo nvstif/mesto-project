@@ -5,6 +5,7 @@
   background-image: url('../../../images/plus.svg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 22px 22px;
   width: 150px;
   height: 50px;
   border: 2px solid #fff;
@@ -25,5 +26,6 @@
   .profile__button-add {
     margin: 0;
     width: 100%;
+    background-size: 16px 16px;
   }
 }

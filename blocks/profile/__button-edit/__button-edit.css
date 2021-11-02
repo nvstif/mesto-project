@@ -8,6 +8,7 @@
   height: 24px;
   border: 1px solid #fff;
   grid-area: edit;
+  align-self: center;
 }
 
 .profile__button-edit:hover {
@@ -16,7 +17,10 @@
 
 @media screen  and (max-width: 767px) {
   .profile__button-edit {
+    position: absolute;
     width: 18px;
     height: 18px;
+    inset-block-start: 7px;
+    inset-inline-end: 0;
   }
 }

@@ -1,12 +1,10 @@
 .profile__about {
-  margin: 0;
   grid-area: about;
+  margin: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #fff;
-  align-self: start;
-  max-width: 350px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -14,6 +12,8 @@
 
 @media screen and (max-width: 767px) {
   .profile__about {
+    width: 250px;
+    text-align: center;
     font-size: 14px;
     line-height: 17px;
   }

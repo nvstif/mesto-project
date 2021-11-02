@@ -1,21 +1,23 @@
 .profile__info {
   display: grid;
-  grid-template-columns: max-content min-content;
-  grid-template-rows: repeat(2, min-content);
+  grid-template-columns: minmax(auto, 300px) auto;
   grid-template-areas:
   "name edit"
   "about .";
   row-gap: 16px;
   column-gap: 18px;
-  align-items: center;
+  height: 73px;
+  align-items: flex-end;
 }
 
 @media screen and (max-width: 767px) {
   .profile__info {
-    grid-template-rows: 1fr min-content;
-    row-gap: 14px;
-    column-gap: 10px;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    row-gap: 0;
+    height: 54px;
     margin-bottom: 36px;
   }
 }
