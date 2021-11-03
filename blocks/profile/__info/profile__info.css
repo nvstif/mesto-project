@@ -6,7 +6,6 @@
   "about .";
   row-gap: 16px;
   column-gap: 18px;
-  height: 73px;
   align-items: flex-end;
 }
 
@@ -17,7 +16,6 @@
     align-items: center;
     position: relative;
     row-gap: 0;
-    height: 54px;
     margin-bottom: 36px;
   }
 }
