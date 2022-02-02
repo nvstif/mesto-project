@@ -11,7 +11,8 @@
 
 **Стек технологий**
 
-HTML, CSS, БЭМ, Flexbox, Grid layout, адаптивная верстка, верстка форм
+HTML, CSS, БЭМ, Flexbox, Grid layout, адаптивная верстка, верстка форм   
+JavaScript
 
 
 **Ссылка на готовый проект**
